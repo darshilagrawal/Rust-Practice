@@ -1,0 +1,2 @@
+/usr/bin/ar qc libion_cli_main.a CMakeFiles/ion_cli_main.dir/main.cpp.o CMakeFiles/ion_cli_main.dir/argtable/argtable3.c.o CMakeFiles/ion_cli_main.dir/cli.cpp.o
+/usr/bin/ranlib libion_cli_main.a

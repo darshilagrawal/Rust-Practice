@@ -1,0 +1,13 @@
+/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/deps/clang_sys-fff180901099176c.rmeta: /Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-1.2.0/src/lib.rs /Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-1.2.0/src/support.rs /Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-1.2.0/src/link.rs /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/clang-sys-35d370a54cbfbd0e/out/common.rs /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/clang-sys-35d370a54cbfbd0e/out/dynamic.rs
+
+/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/deps/libclang_sys-fff180901099176c.rlib: /Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-1.2.0/src/lib.rs /Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-1.2.0/src/support.rs /Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-1.2.0/src/link.rs /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/clang-sys-35d370a54cbfbd0e/out/common.rs /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/clang-sys-35d370a54cbfbd0e/out/dynamic.rs
+
+/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/deps/clang_sys-fff180901099176c.d: /Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-1.2.0/src/lib.rs /Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-1.2.0/src/support.rs /Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-1.2.0/src/link.rs /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/clang-sys-35d370a54cbfbd0e/out/common.rs /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/clang-sys-35d370a54cbfbd0e/out/dynamic.rs
+
+/Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-1.2.0/src/lib.rs:
+/Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-1.2.0/src/support.rs:
+/Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-1.2.0/src/link.rs:
+/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/clang-sys-35d370a54cbfbd0e/out/common.rs:
+/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/clang-sys-35d370a54cbfbd0e/out/dynamic.rs:
+
+# env-dep:OUT_DIR=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/clang-sys-35d370a54cbfbd0e/out

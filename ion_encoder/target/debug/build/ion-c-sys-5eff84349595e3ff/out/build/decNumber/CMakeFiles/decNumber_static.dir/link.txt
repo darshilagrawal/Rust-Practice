@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdecNumber_static.a CMakeFiles/decNumber_static.dir/decContext.c.o CMakeFiles/decNumber_static.dir/decimal128.c.o CMakeFiles/decNumber_static.dir/decimal64.c.o CMakeFiles/decNumber_static.dir/decimal32.c.o CMakeFiles/decNumber_static.dir/decNumber.c.o CMakeFiles/decNumber_static.dir/decPacked.c.o CMakeFiles/decNumber_static.dir/decQuad.c.o
+/usr/bin/ranlib libdecNumber_static.a

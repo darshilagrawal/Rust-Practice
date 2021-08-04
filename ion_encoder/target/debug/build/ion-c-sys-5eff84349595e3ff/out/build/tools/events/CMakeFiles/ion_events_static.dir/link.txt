@@ -1,0 +1,2 @@
+/usr/bin/ar qc libion_events_static.a CMakeFiles/ion_events_static.dir/ion_event_util.cpp.o CMakeFiles/ion_events_static.dir/ion_event_stream.cpp.o CMakeFiles/ion_events_static.dir/ion_event_equivalence.cpp.o
+/usr/bin/ranlib libion_events_static.a

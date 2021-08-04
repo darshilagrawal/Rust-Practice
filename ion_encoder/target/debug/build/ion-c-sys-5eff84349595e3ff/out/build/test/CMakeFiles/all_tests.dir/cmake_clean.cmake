@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/all_tests.dir/gather_vectors.cpp.o"
+  "CMakeFiles/all_tests.dir/gather_vectors.cpp.o.d"
+  "CMakeFiles/all_tests.dir/ion_assert.cpp.o"
+  "CMakeFiles/all_tests.dir/ion_assert.cpp.o.d"
+  "CMakeFiles/all_tests.dir/ion_test_util.cpp.o"
+  "CMakeFiles/all_tests.dir/ion_test_util.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_ion_binary.cpp.o"
+  "CMakeFiles/all_tests.dir/test_ion_binary.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_ion_cli.cpp.o"
+  "CMakeFiles/all_tests.dir/test_ion_cli.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_ion_decimal.cpp.o"
+  "CMakeFiles/all_tests.dir/test_ion_decimal.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_ion_extractor.cpp.o"
+  "CMakeFiles/all_tests.dir/test_ion_extractor.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_ion_integer.cpp.o"
+  "CMakeFiles/all_tests.dir/test_ion_integer.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_ion_reader_seek.cpp.o"
+  "CMakeFiles/all_tests.dir/test_ion_reader_seek.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_ion_stream.cpp.o"
+  "CMakeFiles/all_tests.dir/test_ion_stream.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_ion_symbol.cpp.o"
+  "CMakeFiles/all_tests.dir/test_ion_symbol.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_ion_text.cpp.o"
+  "CMakeFiles/all_tests.dir/test_ion_text.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_ion_timestamp.cpp.o"
+  "CMakeFiles/all_tests.dir/test_ion_timestamp.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_ion_values.cpp.o"
+  "CMakeFiles/all_tests.dir/test_ion_values.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_ion_writer.cpp.o"
+  "CMakeFiles/all_tests.dir/test_ion_writer.cpp.o.d"
+  "CMakeFiles/all_tests.dir/test_vectors.cpp.o"
+  "CMakeFiles/all_tests.dir/test_vectors.cpp.o.d"
+  "all_tests"
+  "all_tests.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/all_tests.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

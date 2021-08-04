@@ -1,0 +1,406 @@
+running: "cmake" "/Users/darshilagrawal/.cargo/registry/src/github.com-1ecc6299db9ec823/ion-c-sys-0.4.11/ion-c" "-DCMAKE_INSTALL_PREFIX=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -arch x86_64" "-DCMAKE_C_COMPILER=/usr/bin/cc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -arch x86_64" "-DCMAKE_CXX_COMPILER=/usr/bin/c++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -arch x86_64" "-DCMAKE_ASM_COMPILER=/usr/bin/cc" "-DCMAKE_BUILD_TYPE=Debug"
+-- The CXX compiler identification is AppleClang 12.0.5.12050022
+-- The C compiler identification is AppleClang 12.0.5.12050022
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Build type set to Debug
+-- Setting DECNUMBER max digits to 34
+-- Found PythonInterp: /usr/bin/python (found version "2.7.16") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- CPack generators: ZIP;TGZ
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/build
+running: "cmake" "--build" "." "--target" "install" "--config" "Debug" "--"
+[  1%] Building C object decNumber/CMakeFiles/decNumber_static.dir/decContext.c.o
+[  2%] Building CXX object test/googletest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  4%] Building C object decNumber/CMakeFiles/decNumber.dir/decContext.c.o
+[  4%] Building C object ionc/CMakeFiles/objlib.dir/decQuadHelpers.c.o
+[  5%] Building C object decNumber/CMakeFiles/decNumber.dir/decimal128.c.o
+[  6%] Building C object decNumber/CMakeFiles/decNumber_static.dir/decimal128.c.o
+[  7%] Building C object ionc/CMakeFiles/objlib.dir/ion_allocation.c.o
+[  8%] Building C object decNumber/CMakeFiles/decNumber.dir/decimal64.c.o
+[  9%] Building C object decNumber/CMakeFiles/decNumber_static.dir/decimal64.c.o
+[ 10%] Building C object ionc/CMakeFiles/objlib.dir/ion_binary.c.o
+[ 13%] Building C object decNumber/CMakeFiles/decNumber_static.dir/decimal32.c.o
+[ 13%] Building C object decNumber/CMakeFiles/decNumber.dir/decimal32.c.o
+[ 14%] Building C object decNumber/CMakeFiles/decNumber.dir/decNumber.c.o
+[ 15%] Building C object decNumber/CMakeFiles/decNumber_static.dir/decNumber.c.o
+[ 16%] Building C object ionc/CMakeFiles/objlib.dir/ion_catalog.c.o
+[ 17%] Building C object ionc/CMakeFiles/objlib.dir/ion_collection.c.o
+[ 18%] Building C object ionc/CMakeFiles/objlib.dir/ion_debug.c.o
+[ 19%] Building C object ionc/CMakeFiles/objlib.dir/ion_errors.c.o
+[ 20%] Building C object ionc/CMakeFiles/objlib.dir/ion_helpers.c.o
+[ 21%] Building C object decNumber/CMakeFiles/decNumber.dir/decPacked.c.o
+[ 23%] Building C object decNumber/CMakeFiles/decNumber_static.dir/decPacked.c.o
+[ 24%] Building C object decNumber/CMakeFiles/decNumber.dir/decQuad.c.o
+[ 25%] Building C object decNumber/CMakeFiles/decNumber_static.dir/decQuad.c.o
+[ 26%] Building C object ionc/CMakeFiles/objlib.dir/ion_index.c.o
+[ 27%] Building C object ionc/CMakeFiles/objlib.dir/ion_initialize.c.o
+[ 28%] Building C object ionc/CMakeFiles/objlib.dir/ion_int.c.o
+[ 29%] Building C object ionc/CMakeFiles/objlib.dir/ion_reader_binary.c.o
+[ 30%] Linking C static library libdecNumber_static.a
+[ 31%] Linking C shared library libdecNumber.dylib
+[ 31%] Built target decNumber
+[ 31%] Built target decNumber_static
+[ 32%] Building C object ionc/CMakeFiles/objlib.dir/ion_reader.c.o
+[ 34%] Building C object ionc/CMakeFiles/objlib.dir/ion_reader_text.c.o
+[ 35%] Building C object ionc/CMakeFiles/objlib.dir/ion_scanner.c.o
+[ 36%] Building C object ionc/CMakeFiles/objlib.dir/ion_stream.c.o
+[ 37%] Building C object ionc/CMakeFiles/objlib.dir/ion_string.c.o
+[ 38%] Building C object ionc/CMakeFiles/objlib.dir/ion_symbol_table.c.o
+[ 39%] Building C object ionc/CMakeFiles/objlib.dir/ion_timestamp.c.o
+[ 40%] Building C object ionc/CMakeFiles/objlib.dir/ion_writer_binary.c.o
+[ 41%] Building C object ionc/CMakeFiles/objlib.dir/ion_writer.c.o
+[ 42%] Building C object ionc/CMakeFiles/objlib.dir/ion_writer_text.c.o
+[ 43%] Building C object ionc/CMakeFiles/objlib.dir/ion_decimal.c.o
+[ 45%] Building C object ionc/CMakeFiles/objlib.dir/ion_float.c.o
+[ 46%] Building C object ionc/CMakeFiles/objlib.dir/ion_extractor.c.o
+[ 46%] Built target objlib
+[ 47%] Linking C shared library libionc.dylib
+[ 48%] Linking C static library libionc_static.a
+[ 48%] Built target ionc_static
+[ 48%] Built target ionc
+[ 49%] Building CXX object tools/events/CMakeFiles/ion_events.dir/ion_event_util.cpp.o
+[ 50%] Building C object tools/ionizer/CMakeFiles/ionizer.dir/ionizer_args.c.o
+[ 51%] Building C object tools/ionsymbols/CMakeFiles/ionsymbols.dir/ionsymbols_args.c.o
+[ 52%] Building C object tools/ionsymbols/CMakeFiles/ionsymbols.dir/ionsymbols.c.o
+[ 53%] Building C object tools/ionizer/CMakeFiles/ionizer.dir/ionizer.c.o
+[ 54%] Building C object tools/ionsymbols/CMakeFiles/ionsymbols.dir/options.c.o
+[ 56%] Linking C executable ionsymbols
+[ 57%] Building C object tools/ionizer/CMakeFiles/ionizer.dir/ionizer_stream.c.o
+[ 57%] Built target ionsymbols
+[ 58%] Building CXX object tools/events/CMakeFiles/ion_events.dir/ion_event_stream.cpp.o
+[ 59%] Building C object tools/ionizer/CMakeFiles/ionizer.dir/options.c.o
+[ 60%] Linking C executable ionizer
+[ 60%] Built target ionizer
+[ 61%] Building CXX object tools/events/CMakeFiles/ion_events.dir/ion_event_equivalence.cpp.o
+[ 62%] Building CXX object tools/events/CMakeFiles/ion_events_static.dir/ion_event_util.cpp.o
+[ 63%] Building CXX object tools/events/CMakeFiles/ion_events_static.dir/ion_event_stream.cpp.o
+[ 64%] Building CXX object tools/events/CMakeFiles/ion_events_static.dir/ion_event_equivalence.cpp.o
+[ 65%] Linking CXX shared library libion_events.dylib
+[ 65%] Built target ion_events
+[ 67%] Building CXX object tools/cli/CMakeFiles/ion_cli.dir/cli.cpp.o
+[ 68%] Linking CXX static library libgtest.a
+[ 68%] Built target gtest
+[ 69%] Building CXX object tools/cli/CMakeFiles/ion.dir/main.cpp.o
+[ 70%] Building CXX object tools/cli/CMakeFiles/ion_cli_main.dir/main.cpp.o
+[ 71%] Linking CXX shared library libion_cli.dylib
+[ 71%] Built target ion_cli
+[ 72%] Building C object tools/cli/CMakeFiles/ion.dir/argtable/argtable3.c.o
+[ 73%] Linking CXX static library libion_events_static.a
+[ 73%] Built target ion_events_static
+[ 74%] Building C object tools/cli/CMakeFiles/ion_cli_main.dir/argtable/argtable3.c.o
+[ 75%] Building CXX object test/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 76%] Building CXX object tools/cli/CMakeFiles/ion.dir/cli.cpp.o
+[ 78%] Building CXX object tools/cli/CMakeFiles/ion_cli_main.dir/cli.cpp.o
+[ 79%] Linking CXX static library libgtest_main.a
+[ 79%] Built target gtest_main
+[ 80%] Building CXX object test/CMakeFiles/all_tests.dir/gather_vectors.cpp.o
+[ 81%] Building CXX object test/CMakeFiles/all_tests.dir/ion_assert.cpp.o
+[ 82%] Linking CXX executable ion
+[ 82%] Built target ion
+[ 83%] Building CXX object test/CMakeFiles/all_tests.dir/ion_test_util.cpp.o
+[ 84%] Linking CXX static library libion_cli_main.a
+[ 84%] Built target ion_cli_main
+[ 85%] Building CXX object test/CMakeFiles/all_tests.dir/test_vectors.cpp.o
+[ 86%] Building CXX object test/CMakeFiles/all_tests.dir/test_ion_binary.cpp.o
+[ 87%] Building CXX object test/CMakeFiles/all_tests.dir/test_ion_writer.cpp.o
+[ 89%] Building CXX object test/CMakeFiles/all_tests.dir/test_ion_decimal.cpp.o
+[ 90%] Building CXX object test/CMakeFiles/all_tests.dir/test_ion_symbol.cpp.o
+[ 91%] Building CXX object test/CMakeFiles/all_tests.dir/test_ion_text.cpp.o
+[ 92%] Building CXX object test/CMakeFiles/all_tests.dir/test_ion_timestamp.cpp.o
+[ 93%] Building CXX object test/CMakeFiles/all_tests.dir/test_ion_values.cpp.o
+[ 95%] Building CXX object test/CMakeFiles/all_tests.dir/test_ion_integer.cpp.o
+[ 95%] Building CXX object test/CMakeFiles/all_tests.dir/test_ion_extractor.cpp.o
+[ 97%] Building CXX object test/CMakeFiles/all_tests.dir/test_ion_cli.cpp.o
+[ 97%] Building CXX object test/CMakeFiles/all_tests.dir/test_ion_stream.cpp.o
+[ 98%] Building CXX object test/CMakeFiles/all_tests.dir/test_ion_reader_seek.cpp.o
+[100%] Linking CXX executable all_tests
+[100%] Built target all_tests
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/lib/libdecNumber.dylib
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decContext.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decDouble.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decDPD.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decimal128.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decimal32.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decimal64.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decNumber.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decNumberLocal.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decPacked.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decQuad.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decSingle.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/lib/libdecNumber_static.a
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decContext.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decDouble.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decDPD.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decimal128.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decimal32.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decimal64.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decNumber.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decNumberLocal.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decPacked.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decQuad.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decSingle.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decNumberLocal.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decNumber.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decSingle.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decQuad.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decContext.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decDPD.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decimal64.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decDouble.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decimal128.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decPacked.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decimal32.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/lib/libionc.1.0.3.dylib
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/lib/libionc.dylib
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_catalog.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_collection.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_debug.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_decimal.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_error_codes.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_errors.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_extractor.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_float.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_int.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_platform_config.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_reader.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_stream.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_string.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_symbol_table.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_timestamp.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_writer.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/lib/libionc_static.a
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/lib/cmake/IonC/IonCTargets.cmake
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/lib/cmake/IonC/IonCTargets-debug.cmake
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_stream.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_int.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_errors.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_timestamp.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_extractor.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_error_codes.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_reader.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_decimal.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_catalog.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_platform_config.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_collection.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_symbol_table.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_string.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_float.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_debug.h
+-- Up-to-date: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_writer.h
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/lib/cmake/IonC/IonCConfig.cmake
+-- Installing: /Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/lib/cmake/IonC/IonCConfigVersion.cmake
+cargo:root=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out
+cargo:rustc-link-search=native=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/lib
+cargo:rustc-link-search=native=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/lib64
+cargo:rustc-link-lib=static=decNumber_static
+cargo:rustc-link-lib=static=ionc_static
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_errors.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_platform_config.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_error_codes.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stdint.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdint.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decQuad.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decContext.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stdint.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctermid.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/secure/_stdio.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/secure/_common.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/signal.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/signal.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/signal.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/signal.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_mcontext.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/_mcontext.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/i386/_structs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_mcontext.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/_mcontext.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/decNumber/decNumber.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_string.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/string.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/strings.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/string.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/secure/_strings.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/secure/_common.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/secure/_string.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/secure/_common.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_platform_config.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_timestamp.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_platform_config.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/time.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_decimal.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_platform_config.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_float.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_int.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/string.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_platform_config.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_decimal.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_collection.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_symbol_table.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_platform_config.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_stream.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_platform_config.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_errors.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_reader.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_stream.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_writer.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_platform_config.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_catalog.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_platform_config.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_debug.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_platform_config.h
+cargo:rerun-if-changed=ion-c/ionc/ion_decimal_impl.h
+cargo:rerun-if-changed=/Users/darshilagrawal/Desktop/CODING/rustPractice/ion_encoder/target/debug/build/ion-c-sys-5eff84349595e3ff/out/include/ionc/ion_types.h
